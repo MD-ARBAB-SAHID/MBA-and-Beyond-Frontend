@@ -1,0 +1,55 @@
+.blog-heading {
+  position: relative;
+  width: 100%;
+  margin-bottom: 3%;
+}
+.content {
+  position: absolute;
+  width: 100%;
+  top: 25%;
+  text-align: center;
+  font-size: 16px;
+}
+.content h1 {
+  font-size: 3em;
+  padding: 10px 20px;
+  margin: 5px;
+  color: white;
+}
+
+.content h3 {
+  color: white;
+  padding: 5px 20px;
+  font-size: 2em;
+  font-size: bolder;
+  margin-bottom: 25px;
+}
+
+.img-section {
+  width: 100%;
+  height: calc(100vh - 50px);
+  position: relative;
+}
+
+.img-section img {
+  width: 100%;
+
+  padding: 0;
+  height: 100%;
+  object-fit: cover;
+}
+@media only screen and (max-width: 998px) {
+  .content {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .content {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .content {
+    font-size: 13px;
+  }
+}

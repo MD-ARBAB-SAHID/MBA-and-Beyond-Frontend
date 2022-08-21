@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
+
+.container {
+  height: calc(100vh - 50px);
+  width: 100%;
+  padding: 0 24px;
+  background: black;
+  font-family: Raleway, sans-serif;
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+  background-image: url(http://bit.ly/2gPLxZ4);
+
+  font-family: Arial, Helvetica;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+.login {
+  margin: 0 auto;
+  width: 420px;
+  padding: 40px 50px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 1px 1px 1px #666;
+}
+.login input {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  margin: 10px 0;
+  padding: 14px 12px;
+  font-size: 16px;
+  border-radius: 2px;
+  font-family: Raleway, sans-serif;
+}
+
+.login input[type="text"],
+.login input[type="password"],
+.login input[type="email"] {
+  border: 1px solid #c0c0c0;
+  transition: 0.2s;
+}
+
+.login input[type="text"]:hover,
+.login input[type="email"]:hover,
+.login input[type="password"]:hover {
+  border-color: black;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.login input[type="submit"] {
+  border: none;
+  background: rgb(27, 26, 26);
+  color: white;
+  font-weight: bold;
+  transition: 0.2s;
+  margin: 20px 0px;
+}
+
+.login input[type="submit"]:hover {
+  background: black;
+}
+
+.login h2 {
+  margin: 20px 0 0;
+
+  color: black;
+  font-size: 28px;
+}
+
+.login h2 + p {
+  margin-bottom: 40px;
+}
+
+.login h2,
+.login h2 + p {
+  text-align: center;
+}
+
+.errorClass {
+  color: red;
+}
+.links {
+  width: 100%;
+  box-sizing: border-box;
+  border-top: 1px solid #c0c0c0;
+  margin-bottom: 10px;
+}
+.links a {
+  text-decoration: none;
+  display: block;
+
+  padding-top: 10px;
+  text-align: center;
+}
+.links a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 576px) {
+  .login {
+    padding: 40px 30px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 1px 1px 1px #666;
+  }
+}

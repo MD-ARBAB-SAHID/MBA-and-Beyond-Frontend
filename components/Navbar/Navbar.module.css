@@ -1,0 +1,101 @@
+.nav-link {
+  position: relative;
+  padding: 0.5rem 0;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: rgb(235, 231, 231);
+  font-weight: 400;
+}
+.logout {
+  background: none;
+  border: none;
+  text-align: left;
+}
+
+.nav-link:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.nav-link:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.nav-link:hover {
+  color: white;
+
+  transition: color 0.25s ease-out;
+}
+
+.brand {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+.brand:hover {
+  color: #c3e8de;
+  transition: color 0.25s ease-out;
+}
+
+.navbar {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding: 2px;
+
+  position: sticky;
+  top: 0;
+
+  z-index: 100;
+}
+
+@media only screen and (min-width: 991px) {
+  .nav-link {
+    padding: 0 2px;
+    margin: 8px 22px;
+  }
+}
+
+@media only screen and (max-width: 998px) {
+  .nav-link {
+    font-size: 1.1rem;
+    padding: 7.5px 6px;
+  }
+  .brand {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .navbar {
+    padding-bottom: 8px;
+    padding-top: 8px;
+  }
+  .nav-link {
+    font-size: 1.2rem;
+    padding: 7px 0;
+  }
+  .brand {
+    font-size: 1.45rem;
+  }
+}
+@media only screen and (max-width: 567px) {
+  .brand {
+    font-size: 1.2rem;
+  }
+  .nav-link {
+    font-size: 1.15rem;
+    padding: 6px 0;
+  }
+}

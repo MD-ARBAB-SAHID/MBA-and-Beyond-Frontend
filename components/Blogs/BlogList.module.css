@@ -1,0 +1,37 @@
+.button-list {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+}
+.actions {
+  font-size: 1.25em;
+  margin: 1em 0.5em;
+  text-align: center;
+  padding: 0.4em 0.8em;
+  border: none;
+
+  font-weight: bolder;
+  background-color: rgb(122, 239, 125);
+}
+.actions:hover {
+  background-color: rgb(61, 167, 220);
+}
+.actions-active {
+  background-color: rgb(61, 167, 220);
+}
+
+@media only screen and (max-width: 998px) {
+  .button-list {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .button-list {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 567px) {
+  .button-list {
+    font-size: 12.6px;
+  }
+}

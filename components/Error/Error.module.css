@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700");
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  background-color: #f4f6ff;
+}
+
+.code {
+  color: #142833;
+  font-size: 40vmin;
+}
+
+.text {
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  bottom: 15vmin;
+  font-weight: 600;
+  color: #092532;
+}

@@ -1,0 +1,25 @@
+.my-blogs {
+  margin: 0 !;
+
+  background-color: #f4f6ff;
+  min-height: 100vh;
+}
+.heading {
+  text-align: center;
+  padding: 20px;
+  color: #142833;
+  text-decoration: underline;
+}
+.no-blogs {
+  text-align: center;
+}
+.no-blogs a {
+  margin: 13px 0;
+}
+.actions {
+  margin-top: 10px;
+}
+.actions button,
+.actions a {
+  margin: 4px 10px;
+}
