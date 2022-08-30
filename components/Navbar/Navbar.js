@@ -44,7 +44,7 @@ const NavBar = () => {
           <Navbar.Brand className={Styles["navbar-brand"]}>
             <Link href="/">
               <Nav.Link eventKey="2" href="/" bsPrefix={Styles["brand"]}>
-                MBA and Beyond Blogs
+                Beyond Blogs
               </Nav.Link>
             </Link>
           </Navbar.Brand>
