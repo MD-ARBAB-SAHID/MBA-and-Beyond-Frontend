@@ -1,4 +1,4 @@
-# MBA-and-Beyond-Backend
+# Beyond-Frontend
 
 ## Webiste Link
    https://mba-and-beyond-frontend.vercel.app
