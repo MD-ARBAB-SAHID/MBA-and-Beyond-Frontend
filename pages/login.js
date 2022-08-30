@@ -10,7 +10,7 @@ const Login = (props) => {
   return (
     <>
       <Head>
-        <title>Login | MBA and Beyond</title>
+        <title>Login | Beyond</title>
         <meta name="description" content="This is Login page" />
       </Head>
       <LoginComponent />

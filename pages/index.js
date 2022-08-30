@@ -16,10 +16,10 @@ export default function Home(props) {
   return (
     <>
       <Head>
-        <title>MBA and Beyond</title>
+        <title>Home | Beyond </title>
         <meta
           name="description"
-          content="MBAandBeyond Blogs is an awsome website to share your blogs."
+          content="Beyond Blogs is an awsome website to share your blogs."
         />
       </Head>
       {!isError && blogs && <Blog blogs={blogs} />}

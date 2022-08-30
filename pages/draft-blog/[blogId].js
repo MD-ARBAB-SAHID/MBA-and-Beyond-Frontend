@@ -20,7 +20,7 @@ const Blog = (props) => {
   return (
     <>
       <Head>
-        <title>Blog | MBA and Beyond </title>
+        <title>Blog | Beyond </title>
         <meta name="description" content="This is draft blog details page" />
       </Head>
       {!isError && blogData && (

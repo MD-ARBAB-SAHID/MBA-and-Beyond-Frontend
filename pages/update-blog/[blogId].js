@@ -14,7 +14,7 @@ const UpdateBlog = (props) => {
   return (
     <>
       <Head>
-        <title>Update Blog | MBA and Beyond</title>
+        <title>Update Blog | Beyond</title>
         <meta name="description" content="This is update blog page" />
       </Head>
       {!isError && blog && <UpdateBlogForm blog={blog} />}

@@ -10,7 +10,7 @@ const Signup = (props) => {
   return (
     <>
       <Head>
-        <title>SignUp | MBA and Beyond</title>
+        <title>SignUp | Beyond</title>
         <meta name="description" content="This is signup page" />
       </Head>
       <SignupComponent />

@@ -10,9 +10,9 @@ const BlogHeader = () => {
         <img src={"/bg1.jpg"} alt="Background Image" />
       </div>
       <div className={Styles.content}>
-        <h1>MBA and Beyond Blogs</h1>
+        <h1>Beyond Imagination Blogs</h1>
 
-        <h3>Presented By MBA and Beyond </h3>
+        <h3>Presented By Beyond </h3>
         {!authCtx.isLoggedin && (
           <Link href="/sign-up">
             <a className="btn btn-dark btn-lg">Sign Up</a>

@@ -19,7 +19,7 @@ const DraftedBlogs = (props) => {
   return (
     <>
       <Head>
-        <title>Draft Blogs | MBA and Beyond</title>
+        <title>Draft Blogs | Beyond</title>
         <meta name="description" content="This is Draft Blogs page" />
       </Head>
       {!isError && myBlogs && (

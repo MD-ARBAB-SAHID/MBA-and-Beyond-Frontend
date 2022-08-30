@@ -10,7 +10,7 @@ const addBlog = (props) => {
   return (
     <>
       <Head>
-        <title>Add Blog | MBA and Beyond</title>
+        <title>Add Blog | Beyond</title>
         <meta name="description" content="This is add blog page" />
       </Head>
       <BlogForm />

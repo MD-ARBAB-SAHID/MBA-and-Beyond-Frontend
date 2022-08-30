@@ -19,7 +19,7 @@ const MyBlogs = (props) => {
   return (
     <>
       <Head>
-        <title>My Blogs | MBA and Beyond</title>
+        <title>My Blogs | Beyond</title>
         <meta name="description" content="This is myblogs page" />
       </Head>
 
