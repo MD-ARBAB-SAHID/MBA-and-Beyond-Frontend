@@ -2,6 +2,7 @@ import SignupComponent from "../components/Signup/signup";
 import Head from "next/head";
 import { useContext, useEffect } from "react";
 import AuthContext from "../store/Auth-Context";
+
 const Signup = (props) => {
   const authCtx = useContext(AuthContext);
   useEffect(() => {
