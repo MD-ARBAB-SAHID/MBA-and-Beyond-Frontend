@@ -1,4 +1,4 @@
-# Beyond-Frontend
+# Beyond-Blogs
 
 ## Webiste Link
    https://mba-and-beyond-frontend.vercel.app
